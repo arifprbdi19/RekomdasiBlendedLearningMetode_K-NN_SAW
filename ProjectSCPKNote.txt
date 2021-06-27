@@ -1,0 +1,37 @@
+Location		= Location
+Date			= Date
+New Cases		= NC
+New Deaths		= ND
+New Recovered	= NR
+New Active Cases= NAC	
+Total Cases		= TC
+Total Deaths	= TD
+Total Recovered	= TR
+Total Active Cases		= TAC
+New Cases per Million 	= NCM	
+Total Cases per Million	= TCM
+New Deaths per Million	= NDM
+Total Deaths per Million= TDM
+Case Fatality Rate		= CFR
+Case Recovered Rate		= CRR
+Growth Factor of New Cases	= GFNC	
+Growth Factor of New Deaths	= GFND
+Klasfikasi					= Klasfikasi															
+
+
+khiteria : 
+C1	: kesiapan sarana pra sarana univ termasuk tenaga pengajar/ dosen dalam menerapkan kegiatan 
+	  belajar hybrid protokol sesuai kesehatan yang berlaku  
+//(1= tidak mendukung 2 = kurang mendukung, 3 = cukup mendukung, dan 4 = sangat mendukung)
+C2	: jumlah Daya tampung univ mengelola jumlah mahasiswa yang dapat di terima untuk melaksanakan uji coba pembelajaran hybrid
+//(0-1 angkatan = 1 , 1-3 angkatan = 2 ,1-5 angkatan=3 seluruh angkatan = 4)
+C3	: Kebutuhan,kepentingan mahasiswa dan univ untuk melaksanakan kegiatan luring . 
+	  Masing masing kampus memiliki tingkat kebutuhan 
+yang berbeda beda  untuk melaksanakan kegiatan tatap muka menyusesuai dengan kebutuhan mahasiswa yang membutuhkan pengajaran sesuai bidangnya
+//(1= sangat butuh 2 = butuh, 3 =  tidak terlalu butuh, dan 4 = tidak butuh)
+c4	: jumlah pengajar dan mahasiswa yang sudah melaksanakan vaksin (0-100%)
+C5	: pengangan pandemi Zona daerah univ berada selama 1 bulan warna menunjukkan tingkat pandemi di daerah tersebut 
+//(1hijau,2K,3O,4M)1 = sangat baik 2 = baik, 3 = prokes ketat, dan 4 = lockdowncuy)
+
+atribut : 11010
+bobot C1=20 C2=20 C3=20 C4=10 C5=30 
